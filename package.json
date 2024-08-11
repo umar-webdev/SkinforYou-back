@@ -1,0 +1,20 @@
+{
+  "name": "skinforyou",
+  "version": "1.0.0",
+  "description": "Backend for Skin4You",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon -r dotenv/config --experimental-json-modules src/index.js"
+  },
+  "author": "Umar shaikh",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.5.2",
+    "nodemon": "^3.1.4",
+    "react-toastify": "^10.0.5"
+  }
+}

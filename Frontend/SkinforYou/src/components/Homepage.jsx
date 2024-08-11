@@ -37,7 +37,7 @@ const Homepage = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await fetch('http://localhost:8000/book-appointment',{
+      const response = await fetch('https://skinforyou-back.onrender.com',{
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
